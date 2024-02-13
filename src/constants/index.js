@@ -122,8 +122,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2019 - April 2020",
     points: [
-     " As a Co-Publishing Secretary, I was responsible for efficiently coordinating and organizing publishing activities, ensuring smooth communication between authors and publishers, and managing essential administrative tasks to facilitate the publication process. My role involves meticulous attention to detail, effective time management, and fostering collaborative relationships within the publishing team"
+      "Efficiently coordinated and organized publishing activities as a Co-Publishing Secretary.",
+      "Established communication between authors and publishers, managing essential administrative tasks to facilitate the publication process.",
+      "Performed administrative roles in executing more than 10 intra-college-fests and collaborating in more than 5 inter-college-fests.",
     ],
+  
   },
   {
     title: "Social Media Assistant",
@@ -132,7 +135,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2021 - Oct 2021",
     points: [
-      "As a Social Media Assistant , I was responsible for managing contents and student queries in social media platform, Facebook.I collaborated with the knowledge team to monitor and respond to comments and messages, and tracked metrics to measure the effectiveness of our efforts while increasing our online presence and connect with learners.",
+      "Responsible for managing content and student queries on the Facebook social media platform.",
+      "Collaborated with the knowledge team to monitor and respond to comments and messages in 100% of the live classes.",
+      "Tracked metrics to measure the effectiveness of our efforts.",
     ],
   },
   {
@@ -142,7 +147,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "Feb 2022 - Mar 2023",
     points: [
-      " I was responsible for creating engaging and informative educational materials and delivering them to learners . Leveraging my expertise in instructional design and subject matter knowledge, I collaborated with a team of professionals to develop and curate effective online courses that met the needs of diverse audiences. I was also dedicated to providing excellent support and guidance to learners, facilitating discussions and activities that promoted active learning and critical thinking.",
+      "Responsible for creating engaging and informative educational materials.",
+      "Collaborated with a team of professionals to develop and curate effective online courses.",
+      "Contributed to 40% of their HSC chemistry contents.",
+      "Provided support and guidance to learners from remote rural areas, in free live classes.",
+      "Facilitated discussions and activities that promoted active learning and critical thinking.",
     ],
   },
   {
@@ -152,7 +161,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2022 - Present",
     points: [
-      "As an event management professional, I am responsible for planning, organizing and contribute in executing successful events .I work closely with clients to understand their goals and requirements, develop event strategies and timelines, manage budgets and logistics, coordinate with vendors and suppliers, and ensure seamless execution of events. This role represents my attempt to help my community .",
+    "As an event management professional, I am responsible for planning, organizing, and contributing to the execution of successful events.",
+    "I work closely with clients to understand their goals and requirements.",
+    "I develop event strategies and timelines.",
+    "I manage budgets and logistics.",
+    "I ensure the seamless execution of events.",
+    "Under my leadership at WOOW, we executed a hygiene campaign named 'Hygieia'.",
+    "This campaign provided medical equipment and hygiene supplies to needy families in Dhaka.",
     ],
   },
   {
@@ -162,8 +177,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Present",
     points: [
-      "As an event management professional, I am responsible for planning, organizing and contribute in executing successful events .I work closely with clients to understand their goals and requirements, develop event strategies and timelines, manage budgets and logistics, coordinate with vendors and suppliers, and ensure seamless execution of events. This role represents my attempt to help my community .",
-    ],
+      "Assisting in organizing and participating in community outreach programs.",
++     "Collaborating with team members to develop and implement projects aimed at addressing social issues.",
++     "Volunteering time and expertise to assist with administrative tasks and organizational operations.",
+      "Participating in awareness campaigns and educational initiatives to promote social change.",
+      "Engaging in networking and partnership-building activities to expand the NGO's reach and impact.",
+      ],
   },
 ];
 
