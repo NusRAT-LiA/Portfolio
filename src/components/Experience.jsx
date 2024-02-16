@@ -43,15 +43,17 @@ const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
+    {experience.points
+      .filter(point => typeof point === 'string' && point.trim() !== '') // Filter out invalid values
+      .map((point, index) => (
+        <li
+          key={`experience-point-${index}`}
+          className='text-white-100 text-[14px] pl-1 tracking-wider'
+        >
+          {point}
+        </li>
+      ))}
+  </ul>
     </VerticalTimelineElement>
   );
 };

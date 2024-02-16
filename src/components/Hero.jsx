@@ -17,19 +17,18 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#ffcc00]'>Lia</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText}  mt-4 text-white-100`}>
             A full stack web3 application <br className='sm:block hidden' />
-            and gaming application developer
+            and game developer
           </p>
         </div>
       </div>
 
-      {/*<ComputersCanvas />*/}
-      <div className="absolute xs:bottom-3 bottom-32 w-full flex justify-center items-center">
-      <img  src="https://i.ibb.co/pJNdPf5/nusrat-Jahan-Lia.png" alt="nusrat-Jahan-Lia" border="0"/>
+      <div className="absolute xs:bottom-2 bottom-20 w-full flex justify-center items-center ">
+      <img  src="https://i.ibb.co/pJNdPf5/nusrat-Jahan-Lia.png" alt="nusrat-Jahan-Lia" border="0" className="max-w-full lg:max-w-xl"/>
       </div>
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -46,6 +45,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
+      
     </section>
   );
 };

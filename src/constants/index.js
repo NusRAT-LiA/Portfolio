@@ -42,14 +42,7 @@ export const navLinks = [
 
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "Csharp",
     icon: csharp,
@@ -178,10 +171,11 @@ const experiences = [
     date: "Jun 2023 - Present",
     points: [
       "Assisting in organizing and participating in community outreach programs.",
-+     "Collaborating with team members to develop and implement projects aimed at addressing social issues.",
-+     "Volunteering time and expertise to assist with administrative tasks and organizational operations.",
       "Participating in awareness campaigns and educational initiatives to promote social change.",
       "Engaging in networking and partnership-building activities to expand the NGO's reach and impact.",
+      "Collaborating with team members to develop and implement projects aimed at addressing social issues.",
+      "Volunteering time and expertise to assist with administrative tasks and organizational operations.",
+      
       ],
   },
 ];

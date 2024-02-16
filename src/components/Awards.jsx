@@ -66,10 +66,8 @@ const Awards = () => {
       institute: "Mirpur Model Academy",
       image: modelacademy,
     },
-    // Add more awards as needed
   ];
 
-  // Split awards into two rows
   const middleIndex = Math.ceil(awards.length / 2);
   const firstRow = awards.slice(0, middleIndex);
   const secondRow = awards.slice(middleIndex);
@@ -83,32 +81,32 @@ const Awards = () => {
       </div>
       <div className="mb-10">
         <div className="flex flex-wrap justify-center">
-          <Marquee direction="left" className="py-5" speed={200}>
+          <Marquee direction="left" className="py-5" speed={100}>
             {firstRow.map((award) => (
-              <div key={award.id} className="card w-72 h-72 bg-base-100 shadow-xl mr-16 mb-10 flex flex-col justify-center items-center"> {/* Added margin */}
+              <div key={award.id} className="card w-72 h-72 bg-base-100 shadow-xl mr-16 mb-10 flex flex-col justify-center items-center"> 
                 <figure className="px-10 pt-10">
-                  <img src={award.image} alt={award.name} className="rounded-xl h-40 w-40 object-cover" /> {/* Adjusted the size and added object-cover to maintain aspect ratio */}
+                  <img src={award.image} alt={award.name} className="rounded-xl h-40 w-40 object-cover" /> 
                 </figure>
                 <div className="w-full flex justify-center mb-5">
-                  <h2 className="text-xl font-semibold text-center">{award.name}</h2> {/* Centered text */}
+                  <h2 className="text-xl font-semibold text-center">{award.name}</h2>
                 </div>
                 <div className="w-full flex justify-center mb-10">
-                  <p className="text-sm text-center">{award.institute}</p> {/* Centered text */}
+                  <p className="text-sm text-center">{award.institute}</p> 
                 </div>
               </div>
             ))}
           </Marquee>
-          <Marquee direction="right" className="py-5" speed={200}> {/* Changed direction to right */}
+          <Marquee direction="right" className="py-5" speed={100}> 
             {secondRow.map((award) => (
-              <div key={award.id} className="card w-72 h-72 bg-base-100 shadow-xl mr-16 mb-10 flex flex-col justify-center items-center"> {/* Added margin */}
+              <div key={award.id} className="card w-72 h-72 bg-base-100 shadow-xl mr-16 mb-10 flex flex-col justify-center items-center"> 
                 <figure className="px-10 pt-10">
-                  <img src={award.image} alt={award.name} className="rounded-xl h-40 w-40 object-cover" /> {/* Adjusted the size and added object-cover to maintain aspect ratio */}
+                  <img src={award.image} alt={award.name} className="rounded-xl h-40 w-40 object-cover" /> 
                 </figure>
                 <div className="w-full flex justify-center mb-5">
-                  <h2 className="text-xl font-semibold text-center">{award.name}</h2> {/* Centered text */}
+                  <h2 className="text-xl font-semibold text-center">{award.name}</h2> 
                 </div>
                 <div className="w-full flex justify-center mb-10">
-                  <p className="text-sm text-center">{award.institute}</p> {/* Centered text */}
+                  <p className="text-sm text-center">{award.institute}</p> 
                 </div>
               </div>
             ))}
