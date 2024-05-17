@@ -27,3 +27,10 @@ dist-ssr
 
 # vscode
 .vscode
+
+package-lock.json
+package.json
+portfolio.zip
+postcss.config.cjs
+tailwind.config.cjs
+vite.config.js
