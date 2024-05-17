@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Nusrat Jahan Lia &nbsp;
-            <span className='sm:block hidden'> | Full Stack & Web3 Developer </span>
+            <span className='sm:block hidden'> | Game and Web3 Developer </span>
           </p>
         </Link>
 

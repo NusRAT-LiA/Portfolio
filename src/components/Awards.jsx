@@ -26,7 +26,7 @@ const Awards = () => {
     },
     {
       id: 4,
-      name: "5th DRMC Prothom Alo Narional Art and Music Festival -2019-First RunnerUp in Fantasy Character Art",
+      name: "5th DRMC Prothom Alo National Art and Music Festival -2019-First RunnerUp in Fantasy Character Art",
       institute: "ProthomAlo",
       image: pa,
     },
@@ -85,7 +85,7 @@ const Awards = () => {
             {firstRow.map((award) => (
               <div key={award.id} className="card w-72 h-72 bg-base-100 shadow-xl mr-16 mb-10 flex flex-col justify-center items-center"> 
                 <figure className="px-10 pt-10">
-                  <img src={award.image} alt={award.name} className="rounded-xl h-40 w-40 object-cover" /> 
+                  <img src={award.image} alt={award.name} className="rounded-full h-32 w-32 object-cover" /> 
                 </figure>
                 <div className="w-full flex justify-center mb-5">
                   <h2 className="text-xl font-semibold text-center">{award.name}</h2>
@@ -100,7 +100,7 @@ const Awards = () => {
             {secondRow.map((award) => (
               <div key={award.id} className="card w-72 h-72 bg-base-100 shadow-xl mr-16 mb-10 flex flex-col justify-center items-center"> 
                 <figure className="px-10 pt-10">
-                  <img src={award.image} alt={award.name} className="rounded-xl h-40 w-40 object-cover" /> 
+                  <img src={award.image} alt={award.name} className="rounded-full h-32 w-32 object-cover" /> 
                 </figure>
                 <div className="w-full flex justify-center mb-5">
                   <h2 className="text-xl font-semibold text-center">{award.name}</h2> 

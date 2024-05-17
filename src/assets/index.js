@@ -36,6 +36,9 @@ import edu from "./company/edu.png"
 
 import deftax from "./deftax.png";
 import blockchained from "./blockchained1.png";
+import kookwa from "./kookWA.png";
+import meg from "./meg.png";
+
 
 import bcolbd from "./awards/bcolbd.png"
 import acc from "./awards/acc.png"
@@ -43,7 +46,7 @@ import modelacademy from "./awards/modelacademy.png"
 import gov from "./awards/gov.png"
 import blsc from "./awards/blsc.png"
 import iitsec from "./awards/iitsec.png"
-import pa from "./awards/pa.png"
+import pa from "./awards/pa.jpg"
 import ub from "./awards/ub.png"
 
 export {
@@ -89,5 +92,7 @@ export {
   shikho,
   wfh,
   woow,
+  kookwa,
+  meg,
 
 };

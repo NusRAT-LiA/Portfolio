@@ -7,7 +7,7 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div>
-       <StarsCanvas />
+       {/* <StarsCanvas /> */}
            <Navbar />
           <Hero />
         </div>

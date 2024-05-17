@@ -22,6 +22,8 @@ import {
   shikho,
   wfh,
   woow,
+  kookwa,
+  meg,
 } from "../assets";
 
 export const navLinks = [
@@ -144,7 +146,6 @@ const experiences = [
       "Collaborated with a team of professionals to develop and curate effective online courses.",
       "Contributed to 40% of their HSC chemistry contents.",
       "Provided support and guidance to learners from remote rural areas, in free live classes.",
-      "Facilitated discussions and activities that promoted active learning and critical thinking.",
     ],
   },
   {
@@ -183,6 +184,46 @@ const experiences = [
 
 
 const projects = [
+  {
+    name: "MEG",
+    description:
+      "A gaming application that simulates the challenges and discoveries of Martian exploration, requires solving of scientific puzzles, and getting real time weather data of Mars.",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSharp",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+   
+    ],
+    image: meg,
+    source_code_link: "https://github.com/NusRAT-LiA/Mars-Explorer-Game",
+  },
+  {
+    name: "Kook-WA",
+    description:
+      "Game on a survival journey on a magical Island of Mysteries! Explore lush terrain, forage for mushrooms, and brew powerful potions. Use spells to fend off monsters and survive escalating challenges.",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSharp",
+        color: "green-text-gradient",
+      },
+   
+    ],
+    image: kookwa,
+    source_code_link: "https://github.com/NusRAT-LiA/Kook-wa",
+  },
   {
     name: "DefTax",
     description:
